@@ -1,10 +1,22 @@
 package mq.java;
 
-public class RobotA {
+public class RobotA 
+{
+	public void method1()
+	{
+		System.out.println("Robot is Walking");
+	}
+	
+	public void method2()
+	{
+		System.out.println("Robot is Running");
+	}
 
 	public static void main(String[] args) {
 		
-		System.out.println("Program is undefined");
+		RobotA obj=new RobotA();
+		obj.method1();
+		obj.method2();
 
 	}
 
